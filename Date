@@ -1,0 +1,15 @@
+import java.time.LocalDateTime;
+
+public class AppointmentScheduler {
+    public static void main(String[] args) {
+        // Schedule an appointment for November 15, 2023, at 2:30 PM
+        LocalDateTime appointmentDateTime = LocalDateTime.of(2023, 11, 15, 14, 30);
+
+        // Display the scheduled appointment
+        System.out.println("Your appointment is scheduled for: " + appointmentDateTime);
+
+        // Set a reminder for the appointment
+        LocalDateTime reminderTime = appointmentDateTime.minusHours(1);
+        System.out.println("Reminder: Your appointment is in 1 hour at " + reminderTime);
+    }
+}
