@@ -1,0 +1,25 @@
+package scenario5;
+
+import java.util.Scanner;
+public class Scenario5 {
+
+public static void main(String[] args) {
+Scanner s = new Scanner ( System.in);
+
+int numOne;
+int numTwo;
+
+System.out.print("First Number: ");
+numOne = s.nextInt();
+System.out.print ("Second Number:");
+numTwo = s.nextInt();
+
+int result;
+
+result = numOne - numTwo;
+
+if (numOne >= numTwo) {
+ System.out.println("Defference:" + result);
+
+}
+}
