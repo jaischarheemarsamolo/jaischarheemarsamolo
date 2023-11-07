@@ -1,0 +1,22 @@
+# Scenario-1
+package scenario1;
+import java.util.Scanner;
+
+public class Scenario01 {
+
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+
+       System.out.println("First number:");
+       int a= sc.nextInt();
+       System.out.println("Second number:");
+       int b = sc.nextInt();
+
+        int c;
+        c = a+b;
+
+
+        System.out.println("The toal number is " + c);
+    }
+
+}
